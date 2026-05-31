@@ -2,6 +2,11 @@
 
 A multi-agent system built with Google's Agent Development Kit (ADK) and Agent-to-Agent (A2A) protocol. It features a team of microservice agents that research, judge, and build content, orchestrated to deliver high-quality results.
 
+## 🎓 Origin and Credits
+This project was developed based on the practical guide published on the **DEV Community** platform:
+👉 [Build Multi-Agent Systems on Google Cloud](https://dev.to/deved/build-multi-agent-systems)
+
+The initial code structure and guiding walkthrough were provided by the authors for educational purposes and for the practical demonstration of feedback loops in serverless distributed architectures.
 ## Architecture
 
 This project uses a distributed microservices architecture where each agent runs in its own container and communicates via A2A:
